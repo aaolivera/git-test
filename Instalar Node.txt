@@ -1,0 +1,8 @@
+#npm init                           <= crea el archivo package.json
+#npm instal lite-server --save-dev  <= instala el paquete lite-server y guarda la dependencia en el package.json
+#agregar en el package.json:  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+#npm start
